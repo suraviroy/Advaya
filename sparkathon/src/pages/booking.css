@@ -1,0 +1,56 @@
+/* .d-flex-justify-content-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    margin-top:20px ;
+    padding-bottom: 30px;
+    margin-bottom:20px ;
+    max-width: 100vw;
+    
+}
+.click{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  
+}
+.click:hover{
+    transform: scale(1.2);
+}
+.card-img, .card-img-top, .card-img-bottom {
+    width: 100%;
+    height: 35vh;
+}
+.home-pad{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.bok{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media (min-width:600px){
+    .bok {
+        display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+
+} */
+.a46{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.a47{
+    margin-left: 12vw;
+    font-size: 2vh !important;
+    
+}
+.a47:hover{
+    transform: scale(1.2);
+   
+}

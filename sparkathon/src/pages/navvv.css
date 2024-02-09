@@ -1,0 +1,44 @@
+.navy006{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-top: 7px;
+  
+}    
+.logo006{
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.name006{
+    display: flex;
+    font-size: 16cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.me-auto006{
+    display: flex;
+    justify-content: left;
+}
+.signbutton006{
+   margin-right: 2px;
+   margin-top: 5px;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: end;
+   margin-top: 10vh;
+}
+.b1{
+    padding-right: 2vh;
+}
+
+.b1:hover{
+    transform: scale(1.2);
+}
+.b2:hover{
+    transform: scale(1.2);
+}

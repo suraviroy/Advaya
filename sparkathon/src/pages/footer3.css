@@ -1,0 +1,41 @@
+.footerr{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5vh;
+    
+}
+.footeri{
+    margin-right:2vw ;
+    border-radius: 50%;
+    height: 2vw;
+    width: 2vw;
+   
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f1{
+    background-color: rgb(19, 19, 95);
+}
+.f2{
+    background-color: rgb(51, 94, 222);
+}
+.f3{
+    background-color: rgb(73, 30, 112);
+}
+.f4{
+    background-color: blue;
+}
+.f1:hover {
+    transform: scale(1.5);
+}
+.f2:hover {
+    transform: scale(1.5);
+}
+.f3:hover {
+    transform: scale(1.5);
+}
+.f4:hover {
+    transform: scale(1.5);
+}

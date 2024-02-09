@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+   
+}
+
+ /* body{
+  background: #0f0c29; 
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+
+}  */
+
+/* .App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+
+.register321{
+  /* max-width: 978px; */
+  width: 50vw;
+  height: 85vh;
+ 
+  /* display:flex;
+  flex-direction: row; */
+  border: 1px solid #000000;
+  border-radius: 5px;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+  /* background-color: #ffffff !important; */
+    background-image: url("https://i.pinimg.com/736x/70/ca/39/70ca3947b55b7618bf008f7cdb47d8b2.jpg") !important;
+    background-position: 2vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.register12 span{
+  color: #adb5bd;
+}
+
+#form{
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+}
+
+#form >  input, btn{
+  border: 1px solid #e9ecef;
+  padding: .9em 1em;
+}
+
+#form > input:focus{
+  outline: none;
+}
+
+#form > btn{
+  background-color: #003049;
+  color: #e9ecef;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  gap: 1em;
+}
+
+.flex-col1110{
+  flex-direction: column;
+}
+
+.register12 .col-1110{
+  margin: auto;
+  padding: 3em 0;
+}
+
+.register12 .col-21110 img{
+  width: 550px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+  border: 1px solid #000000;
+
+}
+
+@media screen and (min-width: 860px)  {
+  .register .col-21110 img{
+    display: initial;
+
+  }
+}
+
+.e{
+  width: 20vw;
+}
+
+.sec12{
+  /* padding-left: 1vw; */
+  margin-right: 1vw;
+  padding-top: 3vh !important;
+  padding-bottom: -30vh !important;
+  
+  
+}
+.C1{
+  visibility:visible  !important;
+}
+.C2{
+  visibility: hidden !important;
+}
+
+.textcenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  border: 3px solid black;
+}
+.click:hover{
+  transform: scale(1.3);
+}
+.po{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 100vw;
+  height: 60vh;
+}
+
+.pop{
+
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    z-index: 99999;
+  }
+
+.p-4441110{
+  margin-right: 25vw !important;
+  margin-left: -35vw !important;
+}
+.justify-content-center{
+  margin-right: 30vh;
+}
+
+.pop{
+  filter:blur(10px) grayscale(5%) !important;
+}
+.sec12{
+    position: left !important;
+}
+.bb10{
+    border: 2px solid rgb(255, 255, 255);
+    padding-top: 5px;
+    color: white;
+    background-color: #003049;
+  color: #e9ecef;
+  font-size: 1em;
+  cursor: pointer;
+}
+ .col-imgg{
+    /* display: flex;
+    flex-direction: column; */
+    width: 50vw;
+    height: 97vh;
+    padding-top: 3vh;
+    padding-left: -2vw !important; 
+    border-radius: 2vw;
+} 
+.iiiv44{
+    display: flex;
+    flex-direction: row;
+   padding-left: 25vw;
+   padding-right: 2vw;
+ 
+height: 105vh;
+    
+}
+.ccc1{
+    color: white;
+}
+.iiiv1{
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;
+    min-height: 50vh  ;
+    padding-bottom: -50vw;
+}
+
+.ssu{
+    width: 100vw;
+}
+.C1{
+    visibility: visible !important;
+  }
+  .C2{
+    visibility:hidden !important;
+  }
+  

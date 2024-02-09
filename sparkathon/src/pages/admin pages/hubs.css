@@ -1,0 +1,63 @@
+.serc {
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    padding-right: 0vw;
+    border-radius: 20;
+}
+
+.search11 {
+    padding-top: 1vh;
+    padding-left: 6vw;
+    padding-bottom: 1vh;
+    width: 20vw;
+}
+
+.liss {
+    margin-top: 4vh;
+    padding-left: 2vw;
+    padding-right: 0vw;
+    /* padding-top: 1vw; */
+    border-radius: 4px;
+    text-align: center;
+    width: 98vw;
+    /* position: absolute; */
+}
+
+.liss {
+    /* position:fixed; */
+    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+.search11 {
+    background-color: #bde3f0 !important;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png") !important;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.search11::placeholder {
+    color: black;
+}
+.vvvv1{
+    margin-left: 0vw;
+    margin-top: 0vh;
+    
+}
+/* .yyy1{
+    margin-top: -5vh;
+} */
+.hello{
+    border:8px black;
+}
+h2{
+    color: black;
+    font-size: 2vh;
+}
+.a479{
+    margin-top: 2vh;
+    height: 5vh;
+}

@@ -1,0 +1,72 @@
+
+.form-container05 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 100%;
+    height: 100%; 
+    background-image:url("./image/new1.avif");
+    /* background-image:url("https://wallpapers.com/images/hd/4k-laptop-dream-desk-27xhabcycspkqeg3.jpg"); */
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-color: #f9ccde;
+    padding: 20px;
+    color: black;
+} 
+
+.form-heading {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight:800;
+    
+}
+
+.form-label {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.form-input,
+.form-select {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+/* Apply additional styling as needed */
+
+/* Example: Center the select elements */
+.form-select {
+    text-align: center;
+}
+/* form1.css */
+
+.form-submit-button {
+    background-color: #c3cdf3;
+    color:rgb(25, 25, 25);
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.form-submit-button:hover {
+    background-color: #cabbfe;
+}
+.ikk12{
+    width: 100%;
+    margin-top: -1vw;
+    padding-bottom: 0vh;
+}
+.uia{
+    color: red;
+    size: 3vh;
+    font-weight: bolder;
+}

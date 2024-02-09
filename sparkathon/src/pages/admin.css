@@ -1,0 +1,26 @@
+.na{
+   margin-bottom: 5vh;
+   margin-right: 5vw;
+   padding-left: 3vw;
+   
+   width: 105%;
+
+}
+.ca{
+    margin-bottom: 70vh;
+    margin-left: 40vw;
+    /* width: 100vw; */
+}
+.si{
+    margin-top: 1vh;
+    
+}
+.fl{
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://media.istockphoto.com/id/1145351600/vector/abstract-uneven-backbrond.jpg?s=612x612&w=0&k=20&c=y4JjplvGSFNJ_sOw4wLmh_EiwjiJFwXeEauxFhWdjD0=");
+    /* background-image: url("https://media.istockphoto.com/id/1160029786/photo/abstract-blurred-blue-an-teal-color-gradient-background-with-shiny-glowing-light-effect-and.jpg?b=1&s=612x612&w=0&k=20&c=E-3vCsg0v_3Mm3xt-R7En7aTN6L9PYbrTM95QAJGa-k="); */
+    background-size: cover; 
+    background-repeat: no-repeat;
+    align-items: center;
+}
