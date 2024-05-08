@@ -11,7 +11,7 @@ import { useNavigate } from 'react-router-dom';
 function Navvv() {
     const Navigate = useNavigate();
     function handleClick(){
-        Navigate("/feedbackregister")
+        Navigate("/feedback")
     }
     function handleClick111(){
         Navigate("/")
@@ -36,7 +36,7 @@ function Navvv() {
                         <Nav className="me-auto006">
                             <Nav.Link onClick={handleClick111}>Home</Nav.Link>
                             <Nav.Link onClick={handleClick}>Feedback</Nav.Link>
-                            <Nav.Link onClick={handleClick222}>Feed</Nav.Link>
+                            <Nav.Link onClick={handleClick222}>Skills</Nav.Link>
                             <NavDropdown title="More Info" id="basic-nav-dropdown">
                                 <NavDropdown.Item onClick={handleClick444}>About Us</NavDropdown.Item>
                                 <NavDropdown.Item onClick={handleClick333}>Hubs</NavDropdown.Item>

@@ -13,6 +13,7 @@ import Skill from "./pages/skill1";
 import Test from "./pages/test";
 import Member from "./pages/member";
 import Admin from "./pages/admin";
+import Feedback from './pages/feedback';
 
 function App() {
 	const [user, setUser] = useState(null);
@@ -91,6 +92,11 @@ function App() {
 					exact
 					path="/admin"
 					element={<Admin user={user} />}
+				/>
+				<Route
+					exact
+					path="/feedback"
+					element={<Feedback user={user} />}
 				/>
 			</Routes>
 		</div>

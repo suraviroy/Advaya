@@ -30,8 +30,8 @@ function Navbarr() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto10">
                             <Nav.Link href="#home">Dashboard</Nav.Link>
-                            <Nav.Link onClick={ggg3}>Map</Nav.Link>
-                            <Nav.Link onClick={ggg2}>Hubs</Nav.Link>
+                            <Nav.Link onClick={ggg3}>Projects</Nav.Link>
+                            <Nav.Link onClick={ggg2}>Questions</Nav.Link>
                             <NavDropdown title="More Info" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1"></NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.3"></NavDropdown.Item>

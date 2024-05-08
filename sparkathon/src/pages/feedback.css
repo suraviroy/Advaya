@@ -1,0 +1,263 @@
+.contact-section23 {
+    padding: 4.4em 0;
+    background-color: #ffffff !important;
+/* background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm222batch5-kul-03.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=08fbfb223887d33030e97becaf4e20dc") !important;
+background-size:cover;
+background-position: 20vh !important;
+height: 50vh;
+width: 100vw; */
+min-height: 100vh ;
+max-height:100vh ;
+padding-left: 100px;
+
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  }
+  
+  .wrapper21 {
+    
+    width: 100%;
+    height: 100vh;
+    -webkit-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+   
+    
+  }
+  
+  .contact-wrap {
+    background: rgba(127, 39, 156, 1);
+    background: -moz-linear-gradient(
+      -45deg,
+      rgb(33, 127, 80) 100%,
+      rgb(6, 5, 5) 0%
+    );
+    background: -webkit-gradient(
+      left top,
+      right bottom,
+      color-stop(0%, rgb(2, 2, 2)),
+      color-stop(100%, rgba(46, 39, 157, 1))
+    );
+    background: -webkit-linear-gradient(
+      -60deg,
+      rgb(0, 0, 0) 0%,
+      rgba(46, 39, 157, 1) 100%
+    );
+    background: -o-linear-gradient(
+      -60deg,
+      rgb(224, 192, 235) 0%,
+      rgba(46, 39, 157, 1) 100%
+    );
+    background: -ms-linear-gradient(
+      -60deg,
+      rgb(216, 192, 224) 0%,
+      rgba(46, 39, 157, 1) 100%
+    );
+    background: linear-gradient(
+      150deg,
+      rgb(54, 152, 163) 0%,
+      rgb(11, 50, 83) 100%
+      
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f279c', endColorstr='#2e279d', GradientType=1 );
+    h3 {
+      color: #fff;
+    }
+  }
+  
+  .mbb-44 {
+    color: rgb(219, 226, 79);
+    font-size: 47px;
+    padding-bottom: 7px;
+  }
+  h3 {
+    padding-top: 20px;
+    color: rgb(216, 216, 63);
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .rate{
+    display: flex;
+    flex-direction: row;
+    /* width: 2vw; */
+    height: 10vh;
+  }
+  .img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .form-control {
+    height: 62px;
+    background: transparent;
+    color: rgba(0, 0, 0, 0.8) !important;
+    font-size: 16px;
+    border-radius: 0px;
+    box-shadow: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    &::-webkit-input-placeholder {
+  
+      color: rgba(255, 255, 255, 0.5) !important;
+    }
+    &::-moz-placeholder {
+    
+      color: rgba(255, 252, 252, 0.5) !important;
+    }
+    &:-ms-input-placeholder {
+    
+    }
+    &:-moz-placeholder {
+      color: rgba(0, 0, 0, 0.5) !important;
+    }
+    &:focus,
+    &:active {
+      background: transparent;
+      border-color: rgba(255, 255, 255, 0.5) !important;
+    }
+  }
+  
+  textarea.form-control {
+    height: inherit !important;
+    margin-top: 5px;
+  }
+  
+  .contactForm {
+    .form-control {
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 0;
+    }
+  }
+  
+  .btnnn {
+    padding: 12px 16px;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+    position: relative;
+    margin-top: 20px;
+    margin-left: 9vw;
+  }
+  
+  .btn-primary123{
+    background: #2c72cd;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #b3ca33;
+  }
+  .info-wrap {
+    h3 {
+      color: #000;
+      position: relative;
+      &:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60px;
+        height: 3px;
+        background: #d62196;
+        content: "";
+      }
+    }
+    .dbox {
+      width: 100%;
+      color: rgba(0, 0, 0, 0.8);
+      margin-bottom: 25px;
+      &:last-child() {
+        margin-bottom: 0;
+      }
+      p {
+        margin-bottom: 0;
+        span {
+          font-weight: 400;
+          color: #000;
+        }
+        a {
+          color: rgb(0, 0, 0);
+        }
+      }
+      .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid rgb(0, 0, 0);
+        span {
+          font-size: 20px;
+          color: #000;
+        }
+      }
+      .text {
+        width: calc(100% - 50px);
+      }
+    }
+  }
+  
+  /* h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5 {
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Poppins", Arial, sans-serif;
+    color: #a8a8a8;
+  } */
+  
+  a {
+    transition: 0.3s all ease;
+    color: #000000;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      text-decoration:none !important;
+      outline:shadow !important;
+      box-shadow: none;
+    }
+  }
+  
+  #contactForm {
+    .form-control {
+      font-size: 16px;
+    }
+  }
+  
+  
+  .mbb-44{
+    padding-bottom: 2.7vh;
+  }
+  .form-control{
+    height: 10vh;
+    width: 20vw;
+  }
+  .container1234{
+    
+    position: top !important;
+  }
+.ayush{
+
+   align-items: center !important;
+    
+}
+.coll-222{
+  
+  /* width: 33vw; */
+  
+}
+.nnn{
+  display: flex;
+  flex-direction:row ;
+}
+.cuu{
+  padding-left: 2vw;
+}

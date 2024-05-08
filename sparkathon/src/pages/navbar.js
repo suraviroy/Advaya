@@ -51,6 +51,7 @@ function Navbare() {
                 <div className='signbutton'>
                 <div className='b1'><a href='/signup'><Button variant="primary">Sign Up</Button> </a>{' '}</div>
                 <div className='b2'><a href='/login'> <Button variant="success">Log In</Button></a>{' '}</div>
+                <div className='b3'><a href='/12365478911'> <Button variant="warning">Admin</Button></a>{' '}</div>
                 </div>
             </Container>
         </Navbar>
