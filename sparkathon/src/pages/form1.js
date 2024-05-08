@@ -106,6 +106,7 @@ const Form1 = () => {
             <div className='ikk12'><Navvv /></div>
 
         <form className="form-container05">
+            <div className='formbg01'>
             
             <h2 className="form-heading">Name</h2>
 
@@ -121,6 +122,7 @@ const Form1 = () => {
                 placeholder="Your Name"
             />
             <h2 className="form-heading">Institution Name</h2>
+            <div className="form-row">
             <label className="form-label" htmlFor="institutionSelect">
                 Select Institution:
             </label>
@@ -132,6 +134,7 @@ const Form1 = () => {
                     </option>
                 ))}
             </select>
+            </div>
             <h2 className="form-heading">Email</h2>
             <label className="form-label" htmlFor="emailInput">
                 Enter your email:
@@ -159,36 +162,47 @@ const Form1 = () => {
                 placeholder="Your Student ID"
             />
             <h2 className="form-heading">Department</h2>
-            <label className="form-label" htmlFor="departmentSelect">
-                Choose your department:
-            </label>
-            <select className="form-select" id="departmentSelect" value={department} onChange={handleDepartmentChange}>
-                <option value="CSE">CSE</option>
-                <option value="IT">IT</option>
-                <option value="ECE">ECE</option>
-                <option value="AIML">AIML</option>
-            </select>
+            <div className="form-row">
+  <label className="form-label" htmlFor="departmentSelect">
+    Choose your department:
+  </label>
+  <select
+    className="form-select2"
+    id="departmentSelect"
+    value={department}
+    onChange={handleDepartmentChange}
+  >
+    <option value="CSE">CSE</option>
+    <option value="IT">IT</option>
+    <option value="ECE">ECE</option>
+    <option value="AIML">AIML</option>
+  </select>
+</div>
             <h2 className="form-heading">Batch</h2>
+            <div className="form-row">
             <label className="form-label" htmlFor="startingYearSelect">
-                Select starting year:
+                Select starting   year: 
             </label>
-            <select className="form-select" id="startingYearSelect" value={startingYear} onChange={handleStartingYearChange}>
+            <select className="form-select2" id="startingYearSelect" value={startingYear} onChange={handleStartingYearChange}>
                 {yearRange.map((year) => (
                     <option key={year} value={year}>
                         {year}
                     </option>
                 ))}
             </select>
+            </div>
+            <div className="form-row">
             <label className="form-label" htmlFor="passOutYearSelect">
                 Select pass-out year:
             </label>
-            <select className="form-select" id="passOutYearSelect" value={passOutYear} onChange={handlePassOutYearChange}>
+            <select className="form-select2" id="passOutYearSelect" value={passOutYear} onChange={handlePassOutYearChange}>
                 {yearRange.map((year) => (
                     <option key={year} value={year}>
                         {year}
                     </option>
                 ))}
             </select>
+            </div>
             <h2 className="form-heading">Contact Information</h2>
             <label className="form-label" htmlFor="phoneNumberInput">
                 Enter your phone number:
@@ -201,10 +215,13 @@ const Form1 = () => {
                 onChange={handlePhoneNumberChange}
                 placeholder="Your Phone Number"
             />
+            <div>
             <button className="form-submit-button" onClick={handleSubmit}>
                 {/* <Link to="/skill1">Submit</Link> */}
                 submit
             </button>
+            </div>
+            </div>
         </form>
         </div>
     );

@@ -74,16 +74,19 @@ const Skill1 = () => {
   };
 
   const handleSubmit = () => {
-    setSelectedSkills([]);
-    setSelectedFile('');
+    // setSelectedSkills([]);
+    // setSelectedFile('');
     setShowMessage(true);
   };
   
 
   return (
     <div className="container89">
-      <h1>Showcase Your Skills</h1>
+      <div className='imagebg'>
+      <div className = "photobg"></div>
+      <div className='detailsbg'>
       <div className='details67'>
+      <h1 className='skillbg'>Showcase Your Skills</h1>
         <p>Name: {name}</p>
         <p>College: {college}</p>
         <p>Department: {department}</p>
@@ -119,7 +122,6 @@ const Skill1 = () => {
       <div className="file-upload-container">
         <label className='file34'>Upload your picture:</label>
         <input type="file" onChange={handleFileChange} />
-        {/* <button className="submit-button54" onClick={handleSubmit}>Save</button> */}
       </div>
       <h1>Selected Skills</h1>
       <div className="file-upload-container">
@@ -127,10 +129,6 @@ const Skill1 = () => {
         <input type="file" onChange={handleFileChange} />
         <button className="submit-button54" onClick={handleSubmit}>Save</button>
       </div>
-      
-
-      {/* <button className="submit-button54" onClick={handleSubmit}>Save</button> */}
-
       {showMessage && (
         <div className="message-container56">
         <p>Congratulations! You Are selected for the test round!</p>
@@ -145,6 +143,8 @@ const Skill1 = () => {
         </Link>
       </div>
       )}
+      </div>
+    </div>
     </div>
   );
 };

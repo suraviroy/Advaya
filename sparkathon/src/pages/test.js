@@ -52,7 +52,7 @@ const Test = () => {
   useEffect(() => {
     if (remainingTime === 0 && currentQuestionIndex < 4) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
-      setRemainingTime(5); // Reset timer for the next question
+      setRemainingTime(10); // Reset timer for the next question
     }
 
     if (remainingTime > 0) {
@@ -74,7 +74,7 @@ const Test = () => {
     setBadge('');
 
     // Start the timer for the first question
-    setRemainingTime(5);
+    setRemainingTime(10);
   };
 
   const handleAnswerSelect = (selectedOptionIndex) => {
@@ -85,7 +85,7 @@ const Test = () => {
 
   const handleNextQuestion = () => {
     setCurrentQuestionIndex(currentQuestionIndex + 1);
-    setRemainingTime(5); // Reset timer for the next question
+    setRemainingTime(10); // Reset timer for the next question
   };
 
   const Navigate = useNavigate();
@@ -170,14 +170,14 @@ const Test = () => {
                   ))}
                 </ul>
                 {currentQuestionIndex !== questions.length - 1 && (
-                  <button onClick={handleNextQuestion} disabled={userAnswers[currentQuestionIndex] === null}>
+                  <button onClick={handleNextQuestion} disabled={userAnswers[currentQuestionIndex] === null} className='save09'>
                     Next Question
                   </button>
                 )}
               </div>
             )}
             {currentQuestionIndex === questions.length - 1 && (
-              <button onClick={handleShowResult}>Submit and Show Result</button>
+              <button onClick={handleShowResult} className='save08'>Submit and Show Result</button>
             )}
           </>
         ) : (
